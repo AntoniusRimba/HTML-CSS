@@ -72,19 +72,6 @@ body {
     padding: 10px;
 }
 
-@media (max-width: 768px) {
-    body {
-        width: 95%;
-    }
-    .grid {
-        grid-template-columns: 1fr;
-    }
-    .topnav {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 .card {
     display: inline-block;
     width: fit-content;
@@ -94,6 +81,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: 0.3s;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
 }
 
 .card:hover {
@@ -114,7 +106,15 @@ body {
     text-align: center;
 }
 
-.card img {
-    display: block;
-    margin: 0 auto;
+@media (max-width: 768px) {
+    body {
+        width: 95%;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .topnav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
