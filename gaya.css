@@ -18,7 +18,7 @@ body {
     width: 60%;
     margin: 20px auto;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #960202, #a84003);
+    background: linear-gradient(135deg, #5c0000, #a84003);
 }
 
 .center {
